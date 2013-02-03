@@ -5,7 +5,7 @@ require 'transferable_associates-activerecord/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "transferable_associates-activerecord"
-  gem.version       = TransferableAssociates.VERSION
+  gem.version       = "0.0.1"
   gem.authors       = "Michael Grohn"
   gem.email         = "michael@grohn.info"
   gem.description   = "This is going to be an extension for activerecord, to do make transfering accosiated objects easier. Nothing here yet; still learning ruby and rails and just started using git, so please be kind (and patient)."
