@@ -1,10 +1,10 @@
 require "transferable_associates-activerecord/version"
 
 module TransferableAssociates
-  
+    
+  VERSION = "0.0.1"
+ 
   module Activerecord
-
-    VERSION = "0.0.1"
 
     def self.included(base)
       class << base
@@ -78,4 +78,4 @@ module TransferableAssociates
   end
 end
 
-ActiveRecord::Base.send(:include, TransferableAssociates)
+ActiveRecord::Base.send(:include, TransferableAssociates::ActiveRecord)
