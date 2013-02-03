@@ -4,6 +4,8 @@ module TransferableAssociates
   
   module Activerecord
 
+    VERSION = "0.0.1"
+
     def self.included(base)
       class << base
         alias_method :original_belongs_to, :belongs_to

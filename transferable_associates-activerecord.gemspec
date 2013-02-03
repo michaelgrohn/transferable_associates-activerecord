@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = TransferableAssociates::Activerecord::VERSION
   gem.authors       = "Michael Grohn"
   gem.email         = "michael@grohn.info"
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "This is going to be an extension for activerecord, to do make transfering accosiated objects easier. Nothing here yet; still learning ruby and rails and just started using git, so please be kind (and patient)."
+  gem.summary       = "This is going to be an extension for activerecord, to do make transfering accosiated objects easier. Nothing here yet; still learning ruby and rails and just started using git, so please be kind (and patient)."
   gem.homepage      = "https://github.com/michaelgrohn/transferable_associates-activerecord"
 
   gem.files         = `git ls-files`.split($/)
