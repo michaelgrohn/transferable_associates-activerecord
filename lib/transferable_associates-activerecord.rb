@@ -4,7 +4,7 @@ module TransferableAssociates
     
   VERSION = "0.0.1"
  
-  module Activerecord
+  module ActiveRecord
 
     def self.included(base)
       class << base
