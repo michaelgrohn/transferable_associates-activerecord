@@ -77,3 +77,5 @@ module TransferableAssociates
 
   end
 end
+
+ActiveRecord::Base.send(:include, TransferableAssociates)
