@@ -1,6 +1,6 @@
 # TransferableAssociates::Activerecord
 
-TODO: Write a gem description
+This is going to be an extension for activerecord, to do make transfering accosiated objects easier. Nothing here yet; still learning ruby and rails and just started using git, so please be kind (and patient).
 
 ## Installation
 
