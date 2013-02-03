@@ -6,11 +6,11 @@ require 'transferable_associates-activerecord/version'
 Gem::Specification.new do |gem|
   gem.name          = "transferable_associates-activerecord"
   gem.version       = TransferableAssociates::Activerecord::VERSION
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
+  gem.authors       = "Michael Grohn"
+  gem.email         = "michael@grohn.info"
   gem.description   = %q{TODO: Write a gem description}
   gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/michaelgrohn/transferable_associates-activerecord"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
